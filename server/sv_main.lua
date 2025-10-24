@@ -7,6 +7,10 @@ RegisterNetEvent("rlo_bell:server:triggerBell", function(data)
     end
 
     if data.Sound.File ~= nil or data.Sound.File ~= "" then
+        if GetResourceState("xsound") ~= "started" then 
+            print("xsound is not installed or started. Sound will not be played.")
+            return 
+        end
         exports["xsound"]:PlayUrlPos(-1, "bell", data.Sound.File, data.Sound.Volume, data.Coords)
         exports["xsound"]:Distance(-1, "bell", data.Sound.Range)
     end

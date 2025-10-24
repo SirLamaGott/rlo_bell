@@ -1,15 +1,17 @@
 ## 📘 Information  
-A short description of what this script does. Explain its purpose, usage, and what makes it useful.
+Let player ring a bell to notify a job about them waiting at the reception. It includes a bridge to easily add your own framework.
 
 
 ## 🎥 Showcase  
-[YouTube](https://placeholder) | [Config](https://placeholder) | [Documentation](https://placeholder)  
+[YouTube (Not available yet)](https://placeholder) | [Config](https://reallifeonline.net/images/rlo_bell-config.png) | [Documentation](https://docs.reallifeonline.net/)  
 
 
 ## ✨ Features  
-- Feature 1 — brief explanation
-- Feature 2 — brief explanation
-- Feature 3 — brief explanation
+- Sounds
+- Easy to use
+- Framework Bridges
+- Perfect optimization
+- Open-Source
 
 
 ## 📊 Resmon Performance  
