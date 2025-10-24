@@ -19,3 +19,5 @@ server_scripts {
     "bridge/**/server.lua", 
     "server/*.lua",
 }
+
+dependencies { "xsound" } 

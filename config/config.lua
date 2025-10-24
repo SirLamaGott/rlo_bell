@@ -7,27 +7,27 @@ Config.Framework = "standalone" -- Available: "standalone", "esx"
 Config.Cooldown = 1000 -- Time in milliseconds
 Config.Bells = {
     {
-        Coords = vector3(0.0, 0.0, 0.0),
-        Job = "example", -- Job that recieves notification (does not work on standalone)
+        Coords = vector3(441.0781, -981.3063, 30.6896),
+        Job = "police", -- Job that recieves notification (does not work on standalone)
 
         Sound = { -- Requires xsound
             File = "./sounds/bell.mp3", -- URL to sound file
             Volume = 1.0,
-            Range = 15
+            Range = 15,
         },
 
         Marker = {
-            Type = 7, -- Put -1 to disable marker
+            Type = 21, -- Put -1 to disable marker
             DrawDistance = 10.0,
-            Size = vector3(1.0, 1.0, 1.0),
-            Color = { r = 255, g = 0, b = 0, a = 100 },
+            Size = vector3(0.5, 0.5, 0.35),
+            Color = { r = 0, g = 180, b = 255, a = 100 },
         },
 
         Notification = {
-            Title = "Title Example",
-            Subtitle = "Subtitle Example",
-            Text = "Text Example",
-            Image = "CHAR_DEFAULT", -- Available Images: https://wiki.rage.mp/wiki/Notification_Pictures
+            Title = "Bell Ringed",
+            Subtitle = "Mission Row Police Department",
+            Text = "Someone rang the bell at the reception.",
+            Image = "CHAR_911", -- Available Images: https://wiki.rage.mp/wiki/Notification_Pictures
         },
     },
 }
