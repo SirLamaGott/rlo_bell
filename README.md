@@ -11,6 +11,7 @@ Let player ring a bell to notify a job about them waiting at the reception. It i
 - Easy to use
 - Framework Bridges
 - Perfect optimization
+- English and German locales ready
 - Open-Source
 
 
